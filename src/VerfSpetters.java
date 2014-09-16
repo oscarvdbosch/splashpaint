@@ -85,7 +85,7 @@ public class VerfSpetters {
         private VerfSpetter getVerfSpetter(int x, int y) {
             VerfSpetter spetter = new VerfSpetter();
             if (spetters[x][y] != SPETTER_CHAR) {
-                return spetter; // Geen S
+                return spetter; // Geen C
             }
             spetter.add(new Coordinaat(x, y));
 
